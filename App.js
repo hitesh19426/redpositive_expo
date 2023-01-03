@@ -11,10 +11,10 @@ import MyTextField from "./components/field";
 
 
 export default function App() {
-  const [name, setName] = useState("Hitesh");
-  const [mobile, setMobile] = useState("9129127371");
-  const [mail, setMail] = useState("hitesh@gmail.com");
-  const [message, setMessage] = useState("Hi there, this is the message typed");
+  const [name, setName] = useState("");
+  const [mobile, setMobile] = useState("");
+  const [mail, setMail] = useState("");
+  const [message, setMessage] = useState("");
 
   const [nameError, setNameError] = useState("");
   const [mobileError, setMobileError] = useState("");
